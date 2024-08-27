@@ -1,0 +1,23 @@
+
+section{
+    height: 1080px;
+    width: 1080px;
+    color:gray;
+}
+
+div{
+    height: 650px;
+    width: 310px;
+    background-color: black;
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    width: 70px;
+    height: 70px;
+}
+.CE{
+    color:blue
+}
