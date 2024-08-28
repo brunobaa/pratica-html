@@ -1,23 +1,43 @@
 
-section{
+.fundo{
     height: 1080px;
     width: 1080px;
-    color:gray;
+    background-color:rgb(119, 119, 179);
+    padding: 60px;
 }
 
-div{
-    height: 650px;
-    width: 310px;
-    background-color: black;
+.FundoCalculadora{
+    height:725px;
+    width: 500px;
+    text-align: center;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,2,36,1) 100%);
+    padding: 14px;
+    padding-top: 1;
+}
+
+.painel{
+    height: 310px;
+    width: 100%;
+    text-align: center;
+    background-color:rgb(76, 98, 134);
 
 }
 
 button{
-    background-color: black;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(1,6,124,1) 100%);
     color: white;
-    width: 70px;
-    height: 70px;
+    width: 121px;
+    height: 80px;
+    font-size: 32px;
+    border-radius: 30px;
+
 }
 .CE{
-    color:blue
+    color:rgb(144, 118, 61);
+}
+
+.operadores{
+    background-color: orangered;
 }
