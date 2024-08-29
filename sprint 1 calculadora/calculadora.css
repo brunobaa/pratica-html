@@ -2,38 +2,57 @@
 .fundo{
     height: 1080px;
     width: 1080px;
-    background-color:rgb(119, 119, 179);
+    background-color:rgb(68, 68, 68);
     padding: 60px;
 }
 
 .FundoCalculadora{
-    height:725px;
-    width: 500px;
+    height:670px;
+    width: 490px;
     text-align: center;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,2,36,1) 100%);
+    background-color:gray;
     padding: 14px;
-    padding-top: 1;
+    padding-top: 14px;
+    border-radius: 10px;
 }
 
 .painel{
-    height: 310px;
+    height: 200px;
     width: 100%;
     text-align: center;
     background-color:#3961a2;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color:black;
+    font-size: 30px;
+    position:relative;
+}
 
+.NumeroPainel{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 100px;
 }
 
 button{
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(1,6,124,1) 100%);
-    color: white;
-    width: 121px;
+    background: rgb(232, 3, 3);
+    /*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 50%, rgba(107,150,172,1) 100%);*/
+    color: black;
+    width: 106px;
     height: 80px;
     font-size: 32px;
-    border-radius: 30px;
+    border-radius: 35px;
+    margin: 6px;
+    cursor:pointer;
+    
+    /*border: 2px black solid;*/
 
 }
+.botao:hover{
+    background-color: rgb(199, 0, 0);
+}
+
 .CE{
     color:rgb(144, 118, 61);
 }
@@ -41,3 +60,5 @@ button{
 .operadores{
     background-color: orangered;
 }
+
+/*boxshadow estudar com a chris*/
