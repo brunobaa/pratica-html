@@ -2,7 +2,7 @@
 .fundo{
     height: 1080px;
     width: 1080px;
-    background-color:rgb(68, 68, 68);
+    background-color:black;
     padding: 60px;
 }
 
@@ -10,7 +10,7 @@
     height:670px;
     width: 490px;
     text-align: center;
-    background-color:gray;
+    background-color: rgb(199, 199, 199);
     padding: 14px;
     padding-top: 14px;
     border-radius: 10px;
@@ -20,10 +20,11 @@
     height: 200px;
     width: 100%;
     text-align: center;
-    background-color:#3961a2;
+    background-color: black;
     border-radius: 4px;
+    border:2px solid rgb(255, 255, 255);
     margin-bottom: 10px;
-    color:black;
+    color:white;
     font-size: 30px;
     position:relative;
 }
@@ -36,9 +37,8 @@
 }
 
 button{
-    background: rgb(232, 3, 3);
-    /*background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 50%, rgba(107,150,172,1) 100%);*/
-    color: black;
+    background-color: black;
+    color: white;
     width: 106px;
     height: 80px;
     font-size: 32px;
@@ -61,4 +61,14 @@ button{
     background-color: orangered;
 }
 
-/*boxshadow estudar com a chris*/
+.titulo{
+    color: red;
+    background-color: aqua;    
+}
+
+
+.easteregg{
+    color: brown;
+}
+/*boxshadow estudar com a chris
+*/

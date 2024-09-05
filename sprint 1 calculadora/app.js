@@ -91,4 +91,5 @@ document.querySelectorAll('.botao').forEach(button => {
     });
 });
 
+
 updateDisplay();
