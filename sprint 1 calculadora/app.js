@@ -1,6 +1,5 @@
 document.getElementById('CE').addEventListener('click', clearAll);
 document.getElementById('limpaAtual').addEventListener('click', clearCurrent);
-document.getElementById('AC').addEventListener('click', clearAll);
 
 let display = document.getElementById('display');
 let currentNumber = '';
@@ -93,6 +92,12 @@ document.querySelectorAll('.botao').forEach(button => {
             chooseOperator(value);
         }
     });
+});
+
+document.getElementById('00').addEventListener('click', () => {
+    if (currentNumber !== '') {
+        appendNumber('00');
+    }
 });
 
 
