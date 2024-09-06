@@ -60,7 +60,7 @@ function calculate() {
             computation = prev / curr;
             break;
         case '%':
-            computation = prev % curr;
+            computation = (prev * curr) / 100;
             break;
         default:
             return;
@@ -75,6 +75,10 @@ function handleEqual() {
     calculate();
 }
 
+document.querySelector('.titulo').addEventListener('click', function() {
+    const easterEgg = document.querySelector('.easteregg');
+    easterEgg.style.display = 'block'; // Mostra o easter egg ao clicar no título
+});
 
 document.querySelectorAll('.botao').forEach(button => {
     button.addEventListener('click', (e) => {

@@ -1,64 +1,68 @@
 
-.fundo{
-    height: 1080px;
-    width: 1080px;
-    background-color:black;
+.fundo {
+    height: 100%;
+    width: 100%;
+    background-color: #f4f4f4; 
     padding: 60px;
 }
 
-.FundoCalculadora{
-    height:670px;
+.FundoCalculadora {
+    height: 670px;
     width: 490px;
     text-align: center;
-    background-color: rgb(199, 199, 199);
+    background-color: #ffffff; 
     padding: 14px;
-    padding-top: 14px;
     border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
 }
 
-.painel{
+.painel {
     height: 200px;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #333333; 
     border-radius: 4px;
-    border:2px solid rgb(255, 255, 255);
-    margin-bottom: 10px;
-    color:white;
+    border: 2px solid #e0e0e0; 
+    color: white;
     font-size: 30px;
-    position:relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
 }
 
-.NumeroPainel{
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
+.NumeroPainel {
     font-size: 100px;
+    white-space: nowrap;
+    overflow-x: auto; 
+    max-width: 100%; 
+    text-align: right; 
+    display: block;
 }
 
-button{
-    background-color: black;
+button {
+    background-color: #007bff; 
     color: white;
     width: 106px;
     height: 80px;
     font-size: 32px;
-    border-radius: 35px;
+    border-radius: 8px; 
     margin: 6px;
     cursor: pointer;
-    
-    /*border: 2px black solid;*/
-
-}
-.botao:hover{
-    background-color: rgb(199, 0, 0);
+    border: none; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
-.CE{
-    color:rgb(144, 118, 61);
+button:hover {
+    background-color: #0056b3; 
 }
 
-.operadores{
-    background-color: orangered;
+.CE {
+    color: #ffb300; 
+}
+
+.operadores {
+    background-color: #6c757d; 
 }
 
 .titulo{
@@ -67,8 +71,59 @@ button{
 }
 
 
-.easteregg{
-    color: brown;
+.easteregg {
+    display: none; 
+    color: goldenrod;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.NumeroPainel::-webkit-scrollbar {
+    width: 10px; 
+}
+
+.NumeroPainel::-webkit-scrollbar-thumb {
+    background-color: black; 
+    border-radius: 10px; 
+}
+
+.NumeroPainel::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+}
+
+
+.NumeroPainel {
+    scrollbar-width: thin; 
+    scrollbar-color: black #f1f1f1; 
+}
+
+.titulo {
+    font-size: 42px;
+    font-weight: bold;
+    color: #333333; 
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+    background-color: #f0f0f0; 
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; 
+}
+
+.fundo {
+    height: auto;
+    width: auto;
+    padding: 60px;
 }
 /*boxshadow estudar com a chris
 */
